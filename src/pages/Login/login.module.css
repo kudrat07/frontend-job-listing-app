@@ -1,0 +1,105 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+  }
+  .form {
+    height: 100%;
+    width: 55%;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    padding-left: 80px;
+    padding-top: 70px;
+    padding-right: 120px;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .form > h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 1px;
+  }
+  .form > h3 {
+    font-weight: 600;
+    color: #525252;
+    text-align: left;
+    letter-spacing: 1px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  form > input {
+    padding: 15px;
+    border: 2px solid #c2c2c2;
+    border-radius: 7px;
+    outline: none;
+    color: #525252;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  form > input::placeholder {
+    color: #525252;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .register_img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  .register_img > img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill
+  }
+  form > button {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40.03px;
+    height: 40%;
+    width: 200px;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: #ed5353;
+    outline: none;
+    color: #ffffff;
+    border: none;
+    padding: 5px 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  form > h4 {
+    font-weight: 600;
+    line-height: 30.24px;
+    color: #525252;
+    letter-spacing: 0.3px;
+  }
+  .span {
+    font-weight: 700;
+    color: #000000;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .h1 {
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    background-image: url("../../assets/register.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .h1 > h1{
+    padding-top: 90px;
+  }

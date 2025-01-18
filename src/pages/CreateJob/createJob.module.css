@@ -1,0 +1,486 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  height: 100%;
+  width: 55%;
+  gap: 20px;
+  display: flex;
+  /* justify-content: center; */
+  padding-left: 80px;
+  padding-top: 20px;
+  padding-right: 100px;
+  padding-bottom: 80px;
+  flex-direction: column;
+  flex-shrink: 0;
+  position: relative;
+}
+.form > h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+  letter-spacing: 1px;
+  flex-shrink: 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.company {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin: 7px 0;
+}
+.company > input {
+  flex-grow: 1;
+  outline: none;
+  border: 2px solid #c2c2c2;
+  border-radius: 5px;
+  padding-left: 20px;
+  font-size: 15.65px;
+  font-weight: 500;
+  line-height: 20.38px;
+  text-align: left;
+  color: #adadad;
+}
+.company > label {
+  width: 150px;
+  height: 30px;
+  font-size: 18.34px;
+  font-weight: 400;
+  line-height: 30.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.url {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin: 7px 0;
+}
+.url > label {
+  width: 150px;
+  height: 30px;
+  font-size: 18.34px;
+  font-weight: 400;
+  line-height: 30.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.url > input {
+  flex-grow: 1;
+  outline: none;
+  border: 2px solid #c2c2c2;
+  border-radius: 5px;
+  padding-left: 20px;
+  font-size: 15.65px;
+  font-weight: 500;
+  line-height: 20.38px;
+  text-align: left;
+  color: #adadad;
+}
+.jobPosition {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin: 7px 0;
+}
+.jobPosition > input {
+  flex-grow: 1;
+  outline: none;
+  border: 2px solid #c2c2c2;
+  border-radius: 5px;
+  padding-left: 20px;
+  font-size: 15.65px;
+  font-weight: 500;
+  line-height: 20.38px;
+  text-align: left;
+  color: #adadad;
+}
+.jobPosition > label {
+  width: 150px;
+  height: 30px;
+  font-size: 18.34px;
+  font-weight: 400;
+  line-height: 30.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.salary {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin: 7px 0;
+}
+.salary > input {
+  flex-grow: 1;
+  outline: none;
+  border: 2px solid #c2c2c2;
+  border-radius: 5px;
+  padding-left: 20px;
+  font-size: 15.65px;
+  font-weight: 500;
+  line-height: 20.38px;
+  text-align: left;
+  color: #adadad;
+}
+.salary > label {
+  width: 150px;
+  height: 30px;
+  font-size: 18.34px;
+  font-weight: 400;
+  line-height: 30.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.jobTypes {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin: 7px 0;
+}
+.jobTypes > select {
+  flex-grow: 1;
+  outline: none;
+  border: 2px solid #c2c2c2;
+  border-radius: 5px;
+  padding-left: 20px;
+  font-size: 15.65px;
+  font-weight: 500;
+  line-height: 20.38px;
+  text-align: left;
+  color: #adadad;
+}
+.jobTypes > label {
+  width: 150px;
+  height: 30px;
+  font-size: 18.34px;
+  font-weight: 400;
+  line-height: 30.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.remoteOffice {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin: 7px 0;
+}
+.remoteOffice > select {
+  flex-grow: 1;
+  outline: none;
+  border: 2px solid #c2c2c2;
+  border-radius: 5px;
+  padding-left: 20px;
+  font-size: 15.65px;
+  font-weight: 500;
+  line-height: 20.38px;
+  text-align: left;
+  color: #adadad;
+}
+.remoteOffice > label {
+  width: 150px;
+  height: 30px;
+  font-size: 18.34px;
+  font-weight: 400;
+  line-height: 30.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.location {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin: 7px 0;
+}
+.location > input {
+  flex-grow: 1;
+  outline: none;
+  border: 2px solid #c2c2c2;
+  border-radius: 5px;
+  padding-left: 20px;
+  font-size: 15.65px;
+  font-weight: 500;
+  line-height: 20.38px;
+  text-align: left;
+  color: #adadad;
+}
+.location > label {
+  width: 150px;
+  height: 30px;
+  font-size: 18.34px;
+  font-weight: 400;
+  line-height: 30.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.description {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin: 7px 0;
+}
+.description > textarea{
+  flex-grow: 1;
+  outline: none;
+  border: 2px solid #c2c2c2;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 15.65px;
+  font-weight: 500;
+  line-height: 20.38px;
+  color: #adadad;
+  text-align: left;
+  resize: none;
+}
+.description > label {
+  width: 150px;
+  height: 30px;
+  font-size: 18.34px;
+  font-weight: 400;
+  line-height: 30.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.about {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin: 7px 0;
+}
+.about > textarea {
+  flex-grow: 1;
+  outline: none;
+  border: 2px solid #c2c2c2;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 15.65px;
+  font-weight: 500;
+  line-height: 20.38px;
+  color: #adadad;
+  text-align: left;
+  resize: none;
+}
+.about > label {
+  width: 150px;
+  height: 30px;
+  font-size: 18.34px;
+  font-weight: 400;
+  line-height: 30.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.information {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin: 7px 0;
+}
+.information > input {
+  flex-grow: 1;
+  outline: none;
+  border: 2px solid #c2c2c2;
+  border-radius: 5px;
+  padding-left: 20px;
+  font-size: 15.65px;
+  font-weight: 500;
+  line-height: 20.38px;
+  text-align: left;
+  color: #adadad;
+}
+.information > label {
+  width: 150px;
+  height: 30px;
+  font-size: 18.34px;
+  font-weight: 400;
+  line-height: 30.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.register_img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.register_img > img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+.formBtn {
+  display: flex;
+  justify-content: end;
+}
+.formBtn > button {
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: #ed5353;
+  outline: none;
+  color: #ffffff;
+  border: none;
+  padding: 5px 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+form > h4 {
+  font-weight: 600;
+  line-height: 30.24px;
+  color: #525252;
+  letter-spacing: 0.3px;
+}
+.span {
+  font-weight: 700;
+  color: #000000;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.h1 {
+  color: #ffffff;
+  height: 100%;
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  background-image: url("../../assets/createJob.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.h1 > h1 {
+  padding-top: 90px;
+}
+
+.list {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin-top: 7px;
+  margin-bottom: 30px;
+}
+.showSkills {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  position: relative;
+}
+.haveSkills {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.haveSkills > p {
+  height: 30px;
+  padding-top: 3px;
+  flex-grow: 1;
+  cursor: pointer;
+  flex-grow: 1;
+  outline: none;
+  border: 2px solid #c2c2c2;
+  border-radius: 5px;
+  padding-left: 20px;
+  color: #adadad;
+}
+.haveSkills > img {
+  position: absolute;
+  right: 10px;
+  top: 13px;
+}
+.list > h1 {
+  width: 150px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.showSkills > ul {
+  border: 1px solid #9c9c9c;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  top: 33px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.showSkills > ul > li {
+  list-style-type: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.showSkills > ul > li:hover {
+  background-color: royalblue;
+  color: #ffffff;
+}
+.li{
+  display: flex;
+  gap: 10px;
+  margin: 7px;
+  top: 15px;
+}
+.selectedSkills {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 25px;
+  width: 90px;
+  border: 1px solid black;
+  background-color: #ffeeee;
+  border: none;
+  border-radius: 3px;
+  flex-wrap: wrap;
+}
+.selectedSkills > p {
+  font-size: 13.38px;
+  font-weight: 500;
+  line-height: 23.6px;
+  text-align: center;
+  text-decoration-skip-ink: none;
+  margin: 0;
+  flex-grow: 1;
+}
+.selectedSkills > button {
+  height: 25px;
+  width: 25px;
+  border: none;
+  outline: none;
+  background-color: #ff6b6b;
+  border-radius: 1px;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}

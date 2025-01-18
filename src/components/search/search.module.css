@@ -1,0 +1,142 @@
+.skillContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+  
+  .skillWrapper {
+    margin-top: 30px;
+    height: 200px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 22px 4px #FF202040;
+  }
+  .searchInput {
+    margin: 20px 70px;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .searchIcon {
+    position: absolute;
+    font-size: 1.5rem;
+    color: gray;
+    left: 15px;
+  }
+  .searchInput > input {
+    width: 100%;
+    padding: 10px 40px 10px 50px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid #e3e3e3;
+    border-radius: 5px;
+    outline: none;
+  }
+  .skills {
+    margin: 20px 70px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    position: relative;
+  }
+  
+  .skillsBtn {
+    display: flex;
+    gap: 10px;
+  }
+  .skillsBtn1 {
+    font-size: 15px;
+    height: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 20px;
+    background-color: #ed5353;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+  .skillsBtn2 {
+    font-size: 17px;
+    height: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 10px;
+    background: none;
+    outline: none;
+    border: none;
+    color: #ed5353;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+  .list {
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+    flex-wrap: wrap;
+  }
+  .list > p {
+    border: 2px solid #cecece;
+    height: 33px;
+    width: 88px;
+    padding-top: 5px;
+    text-align: center;
+    color: #9c9c9c;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .list > ul {
+    border: 1px solid #9c9c9c;
+    position: absolute;
+    top: 33px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .list > ul > li {
+    list-style-type: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .list > ul > li:hover {
+    background-color: royalblue;
+    color: #ffffff;
+  }
+  .selectedSkills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 33px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: #ffeeee;
+    border: none;
+    border-radius: 3px;
+    flex-wrap: wrap;
+  }
+  .selectedSkills > p {
+    font-size: 13.38px;
+    font-weight: 500;
+    line-height: 23.6px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    margin: 0;
+    flex-grow: 1;
+  }
+  .selectedSkills > button {
+    height: 33px;
+    width: 25px;
+    border: none;
+    outline: none;
+    background-color: #ff6b6b;
+    border-radius: 1px;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+  } 
+  
+  

@@ -1,0 +1,352 @@
+.jobdetailContainer {
+  height: 100vh;
+  width: 100%;
+}
+
+.header {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70px;
+  background-image: url("../../assets/Rectangle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-bottom-left-radius: 55px;
+  border-bottom-right-radius: 62px;
+  position: relative;
+  position: fixed;
+}
+.header > h1 {
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.btn {
+  display: flex;
+  gap: 10px;
+}
+.btn1 {
+  padding: 10px 35px;
+  background: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  border-radius: 8px;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+}
+.btn2 {
+  padding: 10px 25px;
+  background-color: #ffffff;
+  color: #ed5353;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.logoutBtn {
+  padding: 10px 30px;
+  background: none;
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 33.13px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.loggedInHeader {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.loggedInHeader > span {
+  flex-shrink: 0;
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 33.13px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.headerWrapper {
+  position: absolute;
+  top: 13%;
+  left: 7%;
+  right: 17%;
+  position: fixed;
+}
+.jobHeader {
+  background-color: #ffffff;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 41.77px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  height: 100px;
+  width: 112%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 23px 2px #0000001a;
+}
+.jobWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 150px;
+}
+.allInfo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  height: auto;
+  width: 60%;
+}
+.allInfoHeader {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 250px;
+  gap: 13px;
+  margin-left: 50px;
+}
+
+.logo {
+  height: 43px;
+  width: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo > img {
+  height: 100%;
+  width: 100%;
+}
+.allInfoHeader > h2 {
+  color: #999999;
+  font-size: 15.25px;
+  font-weight: 500;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.allInfoHeader > h3 {
+  color: #999999;
+  font-size: 15.25px;
+  font-weight: 500;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.allInfoHeader > h4 {
+  color: #999999;
+  font-size: 15.25px;
+  font-weight: 500;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+  align-items: center;
+}
+.name > h1 {
+  font-family: DM Sans;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.name > button {
+  background-color: #ed5353;
+  height: 50px;
+  width: 161px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.location {
+  font-size: 21px;
+  font-weight: 500;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ed5353;
+  margin-left: 50px;
+}
+.salary {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 40px;
+  gap: 10px;
+}
+.stipend {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.stipend > h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #999999;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.stipendImg {
+  height: 20px;
+  width: 20px;
+}
+.stipendImg > img {
+  height: 100%;
+  width: 100%;
+}
+.salary > pre {
+  font-size: 17.25px;
+  font-weight: 500;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.aboutCompany {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 0 50px;
+  margin-top: 30px;
+}
+.aboutCompany > h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40.69px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.about {
+  color: #595959;
+  height: auto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 39.48px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.companyDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 0 50px;
+  margin-top: 30px;
+}
+.companyDescription > h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40.69px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.description {
+  color: #595959;
+  height: auto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 39.48px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0 50px;
+  margin-top: 30px;
+}
+.skills > pre {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40.69px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.skill {
+  display: flex;
+  gap: 20px;
+}
+.skill > p {
+  height: 40px;
+  width: auto;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40.69px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background-color: #FFEEEE;
+  border-radius: 21px;
+}
+.companyInformation {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 0 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.companyInformation > h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40.69px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.Information {
+  color: #595959;
+  height: auto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 39.48px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}

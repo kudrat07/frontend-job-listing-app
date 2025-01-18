@@ -1,0 +1,129 @@
+.jobContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.jobWrapper {
+  height: 136px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 22px 4px #ff202040;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo > img {
+  height: 100%;
+  width: 100%;
+}
+.aboutJob {
+  display: flex;
+  gap: 20px;
+}
+
+.jobType {
+  display: flex;
+  gap: 20px;
+  font-size: 15.1px;
+  font-weight: 500;
+  line-height: 13.47px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ed5353;
+}
+.title {
+  font-size: 10.49px;
+  font-weight: 500;
+  line-height: 17.39px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  gap: 20px;
+}
+.span {
+  display: flex;
+  gap: 20px;
+  font-family: "Roboto";
+  font-size: 18.38px;
+  font-weight: 500;
+  line-height: 16.39px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #9c9c9c;
+}
+.aboutSkills {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.skills {
+  display: flex;
+  gap: 10px;
+}
+.skills > p {
+  height: 23px;
+  width: 80px;
+  background-color: #ffeeee;
+  font-size: 14.94px;
+  font-weight: 500;
+  line-height: 22.96px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  flex-grow: 1;
+}
+.detailsBtn{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.detailsBtn2{
+    height: 15px;
+    /* width: 35%; */
+    font-size: 15px;
+    padding: 0 10px;
+    height: 30px;
+    font-weight: 500;
+    text-align: center;
+    background-color: #ed5353;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.detailsBtn1{
+    height: 15px;
+    width: 35%;
+    font-size: 15px;
+    height: 30px;
+    font-weight: 500;
+    text-align: center;
+    border: 2px solid #ED5353;
+    background-color: #ffffff;
+    outline: none;
+    color: #ED5353;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
